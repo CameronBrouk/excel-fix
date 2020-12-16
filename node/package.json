@@ -1,0 +1,19 @@
+{
+  "name": "excel-fix",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/node": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "exceljs": "^4.2.0",
+    "nodemon": "^2.0.6",
+    "ramda": "^0.27.1",
+    "xlsx": "^0.16.9"
+  },
+  "scripts": {
+    "start": "nodemon --exec babel-node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
